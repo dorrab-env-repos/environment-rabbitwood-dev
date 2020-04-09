@@ -1,0 +1,11 @@
+adminUser:
+  password: vault:rabbitwood/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: arcalos-admin@googlegroups.com
+  token: vault:rabbitwood/pipelineUser:token
+  username: cloudbees-ci-cd-play[bot]
+prow:
+  hmacToken: vault:rabbitwood/prow:hmacToken
+segmentWriteKey: vault:rabbitwood:segmentWriteKey
